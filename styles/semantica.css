@@ -1,0 +1,60 @@
+body {
+    /*background-color: para color de fondo*/
+    background-color: brown;
+    /*background: linear-gradient( permite difuminar la pagina*/
+    background: linear-gradient(to right, #98b9eb, #d4a586);
+    /*Se deben definir las dimensiones */
+    
+    /*color: para color de texto*/
+    color: white;
+    /*font-family: para tipo de letra*/
+    font-family: Arial, sans-serif;
+      
+}
+
+/* SELECTOR DE ETIQUETA*/
+
+header {
+    /*background-color: para color de fondo*/
+    background-color: #333;
+    /*width: para ancho de la caja*/
+    width: 100%;
+    /*height: para alto de la caja*/
+    height: 70px;
+    /*color: para color de texto*/
+    color: white;
+    /*text-align: para alineacion de texto*/
+    text-align: center;
+    /*padding: para margen interno*/
+    padding: 10px;
+    /*margin-bottom: para margen externo*/
+    margin-bottom: 10px;
+}
+
+/* SELECTOR DE CLASE -> . */
+
+.contenedor {
+    /*width: para ancho de la caja*/
+    width: 80%;
+    /*margin: para margen externo*/
+    margin: auto;
+    /*border: para borde de la caja*/
+    border: 1px solid #ccc;
+    /*padding: para margen interno*/
+    padding: 10px;
+    /*background-color: para color de fondo*/
+    background-color: #9e9e9e;
+}
+
+/* SELECTOR DE ID -> # */
+
+#list-unic{
+    /*background-color: para color de fondo*/
+    background-color: #ad8383;
+    /*color: para color de texto*/
+    color: white;
+    /*padding: para margen interno*/
+    padding: 10px;
+    /*margin-bottom: para margen externo*/
+    margin-bottom: 10px;
+}
